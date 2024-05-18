@@ -103,9 +103,9 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "Gult solara", Description = "GULT - "..text},
+        {Title = "Solara Support Version", Description = "GULT - "..text},
         {OutlineColor = Color3.fromRGB(160,160,160),Time = 7, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(160,160,160)}
+        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255,215,0)}
     )
 end 
 
