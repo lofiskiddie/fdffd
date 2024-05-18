@@ -103,9 +103,9 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "Solara Support Version", Description = "GULT - "..text},
+        {Title = "Gult solara", Description = "GULT - "..text},
         {OutlineColor = Color3.fromRGB(160,160,160),Time = 7, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255,215,0)}
+        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(160,160,160)}
     )
 end 
 
@@ -474,3 +474,32 @@ coroutine.resume(coroutine.create(function()
         end
     end
 end))
+
+
+
+Key360 = {
+    Toggle = false,
+    RotationSpeed = 2500, -- higher you go the faster the spin. 2500 is good
+    Keybind = Enum.KeyCode.V
+
+
+    AutoPrediction = { -- Do NOT disable - lofi
+    Enabled = true,
+    ping20_30 = 0.1264236,
+    ping30_40 = 0.1264236,
+    ping40_50 = 0.1264236,
+    ping50_60 = 0.1264236,
+    ping60_70 = 0.1264236,
+    ping70_80 = 0.1264236,
+    ping80_90 = 0.1264236,
+    ping90_100 = 0.1264236,
+    ping100_110 = 0.1264236,
+    ping110_120 = 0.1264236,
+    ping120_130 = 0.1401,
+    ping130_140 = 0.1437,
+    ping140_150 = 0.153,
+    ping150_160 = 0.1514,
+    ping160_170 = 0.1663,
+    ping170_180 = 0.1672,
+    ping180_190 = 0.1848,
+    ping190_200 = 0.1865,
